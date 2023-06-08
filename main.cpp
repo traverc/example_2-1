@@ -42,8 +42,8 @@ int main()
     inputsInit();
     outputsInit();
     while (true) {
-        alarmActivationUpdate();
-        alarmDeactivationUpdate();
+        alarmActivationUpdate(); //adding some comments just to have changes
+        alarmDeactivationUpdate();  //to store to github
         uartTask();
     }
 }
